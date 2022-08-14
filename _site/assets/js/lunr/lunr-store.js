@@ -5,10 +5,10 @@ var store = [{
         "url": "/test-2/",
         "teaser": null
       },{
-        "title": "testㅇㅇ",
-        "excerpt":"test 내용 입니다  ","categories": [],
+        "title": "test1",
+        "excerpt":"test 내용 입니다  ","categories": ["Categories"],
         "tags": [],
-        "url": "/test/",
+        "url": "/categories/test/",
         "teaser": null
       },{
         "title": "test3",
