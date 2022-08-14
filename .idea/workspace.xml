@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8edc90c-7319-4573-b7db-a1ee91a2635d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_sass/custom/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/developer.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/navigation.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/navigation.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/minimal-mistakes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/minimal-mistakes.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/_main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/_main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/_pages/404.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_pages/404.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/custom/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/custom/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,5 +70,9 @@
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
     <state x="634" y="269" key="FileChooserDialogImpl/0.0.1707.1027@0.0.1707.1027" timestamp="1660129180692" />
+    <state x="446" y="247" key="Vcs.Push.Dialog.v2" timestamp="1660480761871">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state x="446" y="247" key="Vcs.Push.Dialog.v2/0.0.1707.1027@0.0.1707.1027" timestamp="1660480761871" />
   </component>
 </project>
