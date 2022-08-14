@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8edc90c-7319-4573-b7db-a1ee91a2635d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_site/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/js/lunr/lunr-en.js" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/js/lunr/lunr-en.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/js/lunr/lunr-gr.js" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/js/lunr/lunr-gr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/js/lunr/lunr-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/js/lunr/lunr-store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_site/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/test-2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/test-2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/test3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/test3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/test4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/test4/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="b8edc90c-7319-4573-b7db-a1ee91a2635d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,7 +61,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660502093589</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="post 안나오는 현상">
+      <created>1660503176913</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660503176913</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,10 +79,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="post 안나오는 현상" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="471" y="81" key="CommitChangelistDialog2" timestamp="1660502368157">
+    <state x="471" y="81" key="CommitChangelistDialog2" timestamp="1660503175698">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
-    <state x="471" y="81" key="CommitChangelistDialog2/0.0.1707.1027@0.0.1707.1027" timestamp="1660502368157" />
+    <state x="471" y="81" key="CommitChangelistDialog2/0.0.1707.1027@0.0.1707.1027" timestamp="1660503175698" />
     <state x="634" y="269" key="FileChooserDialogImpl" timestamp="1660129180692">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
@@ -101,10 +95,10 @@
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
     <state x="491" y="274" key="MultipleFileMergeDialog/0.0.1707.1027@0.0.1707.1027" timestamp="1660499845715" />
-    <state x="446" y="247" key="Vcs.Push.Dialog.v2" timestamp="1660502381070">
+    <state x="446" y="247" key="Vcs.Push.Dialog.v2" timestamp="1660503189800">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
-    <state x="446" y="247" key="Vcs.Push.Dialog.v2/0.0.1707.1027@0.0.1707.1027" timestamp="1660502381070" />
+    <state x="446" y="247" key="Vcs.Push.Dialog.v2/0.0.1707.1027@0.0.1707.1027" timestamp="1660503189800" />
     <state x="629" y="226" key="git4idea.branch.GitSmartOperationDialog" timestamp="1660500141242">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
