@@ -2,12 +2,30 @@
    jQuery plugin settings and other scripts
    ========================================================================== */
 
-$(function() {
+// 우측 하단 위젯 관련 https://makerwidget.com/ 참고
+(function (d, h, m) {
+  var js, fjs = d.getElementsByTagName(h)[0];
+  if (d.getElementById(m)) {
+    return;
+  }
+  js = d.createElement(h);
+  js.id = m;
+  js.onload = function () {
+    window.makerWidgetComInit({
+      position: "left",
+      widget: "lnfrfebbazelsotc-dwgrwcqdpkbpdolz-pkprvxzaltlq9f79"
+    })
+  };
+  js.src = "https://makerwidget.com/js/embed.js";
+  fjs.parentNode.insertBefore(js, fjs)
+}(document, "script", "dhm"))
+
+$(function () {
   // FitVids init
   $("#main").fitVids();
 
   // Sticky sidebar
-  var stickySideBar = function() {
+  var stickySideBar = function () {
     var show =
       $(".author__urls-wrapper").find("button").length === 0
         ? $(window).width() > 1024 // width should match $large Sass variable
@@ -23,18 +41,18 @@ $(function() {
 
   stickySideBar();
 
-  $(window).resize(function() {
+  $(window).resize(function () {
     stickySideBar();
   });
 
   // Follow menu drop down
-  $(".author__urls-wrapper").find("button").on("click", function() {
+  $(".author__urls-wrapper").find("button").on("click", function () {
     $(".author__urls").toggleClass("is--visible");
     $(".author__urls-wrapper").find("button").toggleClass("open");
   });
 
   // Close search screen with Esc key
-  $(document).keyup(function(e) {
+  $(document).keyup(function (e) {
     if (e.keyCode === 27) {
       if ($(".initial-content").hasClass("is--hidden")) {
         $(".search-content").toggleClass("is--visible");
@@ -44,11 +62,11 @@ $(function() {
   });
 
   // Search toggle
-  $(".search__toggle").on("click", function() {
+  $(".search__toggle").on("click", function () {
     $(".search-content").toggleClass("is--visible");
     $(".initial-content").toggleClass("is--hidden");
     // set focus on input
-    setTimeout(function() {
+    setTimeout(function () {
       $(".search-content").find("input").focus();
     }, 400);
   });
@@ -62,7 +80,7 @@ $(function() {
   });
 
   // Gumshoe scroll spy init
-  if($("nav.toc").length > 0) {
+  if ($("nav.toc").length > 0) {
     var spy = new Gumshoe("nav.toc a", {
       // Active classes
       navClass: "active", // applied to the nav list item
@@ -109,7 +127,7 @@ $(function() {
     // make it unique to apply your CSS animations just to this exact popup
     mainClass: "mfp-zoom-in",
     callbacks: {
-      beforeOpen: function() {
+      beforeOpen: function () {
         // just a hack that adds mfp-anim class to markup
         this.st.image.markup = this.st.image.markup.replace(
           "mfp-figure",
@@ -122,7 +140,7 @@ $(function() {
   });
 
   // Add anchors for headings
-  $('.page__content').find('h1, h2, h3, h4, h5, h6').each(function() {
+  $('.page__content').find('h1, h2, h3, h4, h5, h6').each(function () {
     var id = $(this).attr('id');
     if (id) {
       var anchor = document.createElement("a");
@@ -134,3 +152,4 @@ $(function() {
     }
   });
 });
+
