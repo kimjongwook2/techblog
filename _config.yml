@@ -12,12 +12,12 @@ description              : "javascript, vue, scss 혹은 server, 프론트앤드
 url                      : "https://kimjongwook2.github.io/techblog/" # GitBlog 호스트 주소
 baseurl                  : # subPath https://kimjongwook2.github.io/techblog라고 하고 싶을 시 "/techblog" 라고 적는다.
 repository               : "kimjongwook2/techblog.github.com" # GitHub username/repo-name
+repository_tree          : main
 teaser                   : # "/assets/img/senior-couple-4723737_640.jpg" # 홈페이지 기본 티져 이미지
 logo                     : # 타이틀 옆에 작게 들어갈 이미지.
 masthead_title           : "기록하는 개발자 Blog" # 홈페이지 최 상탄에 들어갈 타이틀
 breadcrumbs              : true # 브래드크럼 사용 여부 true, false (default) , _data/ui-text.yml에 다국어 지원 가능합니다.
 words_per_minute         : 200 # 해당 포스트 읽는데 걸리는 시간을 계산하기 위해 대락 분당 읽는 수가 몇글자가 될지 적는 공간.
-published                : true
 
 # 댓글 관련 부분
 comments:
@@ -277,7 +277,6 @@ defaults:
       share: false
       related: true
       popular: false
-      futrue: true
 
   # _pages
   - scope:
@@ -286,4 +285,3 @@ defaults:
     values:
       layout: single
       author_profile: true
-      futrue: true
