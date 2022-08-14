@@ -85,6 +85,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="post 안나오는 현상" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="471" y="81" key="CommitChangelistDialog2" timestamp="1660502368157">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state x="471" y="81" key="CommitChangelistDialog2/0.0.1707.1027@0.0.1707.1027" timestamp="1660502368157" />
     <state x="634" y="269" key="FileChooserDialogImpl" timestamp="1660129180692">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
@@ -97,10 +101,10 @@
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
     <state x="491" y="274" key="MultipleFileMergeDialog/0.0.1707.1027@0.0.1707.1027" timestamp="1660499845715" />
-    <state x="446" y="247" key="Vcs.Push.Dialog.v2" timestamp="1660499888147">
+    <state x="446" y="247" key="Vcs.Push.Dialog.v2" timestamp="1660502381070">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
-    <state x="446" y="247" key="Vcs.Push.Dialog.v2/0.0.1707.1027@0.0.1707.1027" timestamp="1660499888147" />
+    <state x="446" y="247" key="Vcs.Push.Dialog.v2/0.0.1707.1027@0.0.1707.1027" timestamp="1660502381070" />
     <state x="629" y="226" key="git4idea.branch.GitSmartOperationDialog" timestamp="1660500141242">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
