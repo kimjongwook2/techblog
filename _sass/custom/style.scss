@@ -1,3 +1,12 @@
+textarea:focus {
+    outline: none !important;
+}
+button:focus {
+    outline: none !important;;
+}
+input:focus {
+    outline: none !important;;
+}
 .sidebar {
     p,
     li {
@@ -17,4 +26,31 @@
 }
 .fa-search {
     color: #fff;
+}
+.page__content p, .page__content li, .page__content dl { // 상세 내용
+    font-size: 16px;
+    word-break: keep-all;
+}
+.page__related-title { // 게시글 내용안에 하단에 "참고" 이라는 텍스트 ? 쓸모없을 것 같아서 임시로 주석
+    display: none;
+}
+.page__date { // 게시글 날짜 표기
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+.page__date i {
+    margin-right: 5px;
+}
+.page__title {
+    margin-bottom: 50px;
+}
+.grid__item {
+    width: 100%;
+}
+.pagination--pager {
+    font-size: 16px;
+}
+.text-emphasis {
+    color: #ea3e3e;
 }
